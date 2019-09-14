@@ -2,46 +2,38 @@ body, html{
   height:100%
 }
 /*the home  */
-.bg{
-  background-image:url(https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
-  
-  background-size:cover;
-  height:100%
-  }
-
+.background{
+background-image:url(https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+background-size:cover;
+height:100%
+}
+/*navbar styles*/
 nav {
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 10px 0;
-  font-family: 'Amita';font-size: 22px;
-
-  
+max-width: 960px;
+margin: 0 auto;
+padding:5px 0;
+font-family: 'Amita';font-size: 22px;   
 }
 nav>ul {
-  text-align: right;
+text-align: right;
  
 }
 nav>ul>li {
-  display: inline-block;
+display: inline-block;
 }
 nav ul li a {
-  padding: 18px;
-  margin-right: 0;
-  text-transform: uppercase;
-  text-decoration: none;
-  display: block;
-  color: rgba(255, 255, 255, 0.733);   
-}
-nav>ul>li>a:hover {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), insert 0 0 1px rgba(255, 255, 255, 0.6);
-  background:rgb(8, 235, 223);
-  color: rgba(0, 35, 122, 0.7);
+padding: 18px;
+margin-right: 0;
+text-transform: uppercase;
+text-decoration: none;
+display: block;
+color: rgba(255, 255, 255, 0.733);   
 }
 #banner{
 padding-bottom :1.5%;
 background-color:rgba(231, 68, 204, 0.1); 
 }
-#banner>a:{
+#banner>a{
 border : 2px solid white;
 width :20%;
 height:20%;
@@ -51,23 +43,23 @@ padding-bottom : 1%;
 text-align:center;
 color:white;
 }
-.name{
-  color:white;
-  text-align:center;
-  font-size:38px;
+.paragraph{
+color:white;
+text-align:center;
+font-size:38px;
 bottom:140px;
 position:absolute;
 width:100%;
-
 }
 span{
-  color:red
+color:red
 }
 /* the about css style*/
 h1{
-  text-align:center;
-  padding:2%;
-  color:maroon;
+text-align:center;
+padding:2%;
+color:maroon;
+font-family: 'Monoton', cursive; 
 }
 #im{
   height:300PX;
@@ -92,11 +84,8 @@ h1{
   font-size:24px;
   color:skyblue;
 }
-#portfolio{
-  
-  background-color:rgb(235, 188, 131);
- 
-}
+
+
 .explOfProjects{
   display:flex;
   flex-direction:row;
@@ -125,6 +114,8 @@ h1{
 #contact{
   background-color:rgb(167, 167, 167);
   padding:10px;
+  height:100%;
+  
   
 }
 .form input {
@@ -161,7 +152,7 @@ h2{
   border-radius:5%;
 }
 #loading {
-  -webkit-animation: rotation 10s infinite linear;
+  -webkit-animation: rotation 30s infinite linear;
   border-radius:50%;
 }
 
@@ -173,7 +164,7 @@ h2{
           -webkit-transform: rotate(359deg);
   }
 }
-.nme{
+.name{
   
       
   font-family: 'Amita';font-size: 44px; 
@@ -204,6 +195,8 @@ h2{
 }
 #about{
   background-color:rgb(216, 216, 216);
+  height:100%;
+ 
 }
 .t{
   font-family: 'Andada';font-size: 32px;
@@ -247,13 +240,16 @@ a:hover{
   text-decoration:none
  
 }
-.ooh{
+.images{
 border-radius: 50%;
-padding:2%;
+
+margin-bottom:2%;
+/* margin-bottom:12%; */
 
 }
 #portfolio{
-    background-color: beige;
+  background-color:blanchedalmond;
+
 }
 h3{
     text-decoration:none;
@@ -272,10 +268,32 @@ h3{
     font-size:26px;
 }
 body {
-  background: #310404 url(https://i.ytimg.com/vi/wOvQAhzWCrM/maxresdefault.jpg) no-repeat center center fixed; 
+  
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   font-family: 'Barlow', sans-serif;
+}
+#skills{
+ height:100%;
+ 
+ background: #310404 url(https://i.ytimg.com/vi/wOvQAhzWCrM/maxresdefault.jpg);
+ background-repeat: no-repeat;
+ background-size:cover; 
+}
+.fa fa-github{
+ font-size:3%;
+}
+.zoom {
+/* padding: 50px; */
+
+transition: transform .2s; /* Animation */
+/* width: 200px;
+height: 200px; */
+margin: 0 auto;
+}
+
+.zoom:hover {
+transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
