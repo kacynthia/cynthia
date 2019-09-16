@@ -66,7 +66,12 @@ font-family: 'Monoton', cursive;
   margin:0;
   padding:0;
   color:transparent;
-  font-size:2em;
+  font-size:2em; margin:0;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+  background:#000;
   font-family:'Bad Script',cursive;
   overflow:hidden;
 }
@@ -74,7 +79,7 @@ font-family: 'Monoton', cursive;
   display:table-cell;
   animation:animate 1s linear infinite;
 }
-}
+
 #name span:nth-child(9n+1){
   animation-delay: 0.5s;
 }
