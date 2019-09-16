@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Bad+Script');
 body, html{
   height:100%
 }
@@ -44,17 +43,17 @@ padding-bottom : 1%;
 text-align:center;
 color:white;
 }
-/* .paragraph{
+.paragraph{
 color:white;
 text-align:center;
 font-size:38px;
 bottom:140px;
 position:absolute;
 width:100%;
-} */
-/* span{
+}
+span{
 color:red
-} */
+}
 /* the about css style*/
 h1{
 text-align:center;
@@ -62,69 +61,6 @@ padding:2%;
 color:maroon;
 font-family: 'Monoton', cursive; 
 }
-/*name style*/
-#name{
-  margin:0;
-  padding:0;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  height:100vh;
-  font-family:'Bad Script',cursive;
-  overflow:hidden;
-  color:transparent;
-  font-size:12em;
-}
-#name span{
-  display:table-cell;
-  animation:animate 1s linear infinite;
-}
-
-#name span:nth-child(9n+1){
-  animation-delay: 0.5s;
-}
-#name span:nth-child(9n+2){
-  animation-delay: 1.25s;
-}
-#name span:nth-child(9n+3){
-  animation-delay: 2.35s;
-}
-#name span:nth-child(9n+4){
-  animation-delay: 2.75s;
-}
-#name span:nth-child(9n+5){
-  animation-delay: 1s;
-}
-#name span:nth-child(9n+6){
-  animation-delay: 1.35s;
-}
-#name span:nth-child(9n+7){
-  animation-delay: 1.5s;
-}
-#name span:nth-child(9n+8){
-  animation-delay: 0.65s;
-}
-#name span:nth-child(9n+8){
-  animation-delay: 0.65s;
-}
-#name span:nth-child(9n+9){
-  animation-delay: 3.85s;
-}
-@keyframes animate{
-  0%,100%{
-    color:#fff;
-    filter:blur(2px);
-    text-shadow: 0 0 10px #00b3ff,
-                 0 0 20px #00b3ff,
-                 0 0 40px #00b3ff,
-                 0 0 80px #00b3ff,
-                 0 0 120px #00b3ff,
-                 0 0 200px #00b3ff,
-                 0 0 300px #00b3ff,
-                 0 0 400px #00b3ff;
-  }
-}
-
 #im{
   height:300PX;
   border-radius:50%;
@@ -229,7 +165,32 @@ h2{
           -webkit-transform: rotate(359deg);
   }
 }
-
+.name{
+  
+      
+  font-family: 'Amita';font-size: 44px; 
+      color: magenta;
+      -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+      -webkit-animation: 5s infinite linear; /* Safari 4.0 - 8.0 */
+      animation-name: example;
+      animation-duration: 5s;
+    }
+    
+    /* Safari 4.0 - 8.0 */
+    @-webkit-keyframes example {
+      0%   {color: cyan;}
+      25%  {color: rgb(213, 248, 12);}
+      50%  {color:magenta;}
+      100% {color: rgb(250, 4, 66);}
+    }
+    
+    /* Standard syntax */
+    @keyframes example {
+      0%   {color: cyan;}
+      25%  {color: rgb(213, 248, 12);}
+      50%  {color:magenta;}
+      100% {color: rgb(253, 7, 40);}
+    }
 #abt{
   font-family: 'Charm';font-size: 32px;
 }
