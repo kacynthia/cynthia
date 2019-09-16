@@ -44,14 +44,14 @@ padding-bottom : 1%;
 text-align:center;
 color:white;
 }
-.paragraph{
+/* .paragraph{
 color:white;
 text-align:center;
 font-size:38px;
 bottom:140px;
 position:absolute;
 width:100%;
-}
+} */
 span{
 color:red
 }
