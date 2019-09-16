@@ -292,5 +292,6 @@ margin: 0 auto;
 
 .zoom:hover {
 transform: scale(1.5); 
+color:cyan;
 
 }
