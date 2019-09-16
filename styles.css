@@ -66,14 +66,14 @@ font-family: 'Monoton', cursive;
 #name{
   margin:0;
   padding:0;
-  color:transparent;
-  font-size:12em; margin:0;
   display:flex;
   justify-content:center;
   align-items:center;
   height:100vh;
   font-family:'Bad Script',cursive;
   overflow:hidden;
+  color:transparent;
+  font-size:12em;
 }
 #name span{
   display:table-cell;
