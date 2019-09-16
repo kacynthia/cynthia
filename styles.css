@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css?family=Bad+Script'); */
+@import url('https://fonts.googleapis.com/css?family=Bad+Script');
 body, html{
   height:100%
 }
@@ -52,9 +52,9 @@ bottom:140px;
 position:absolute;
 width:100%;
 } */
-span{
+/* span{
 color:red
-}
+} */
 /* the about css style*/
 h1{
 text-align:center;
