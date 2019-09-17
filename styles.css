@@ -253,9 +253,10 @@ h2{
     }
  #abt{
   font-family: 'Charm';font-size: 32px;
+  color:white;
 }
  #about{
-  background-color:rgb(216, 216, 216);
+  background-color:black;
   height:100%;
 } 
 .t{
