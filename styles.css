@@ -62,7 +62,7 @@ width:100%;
 } 
 h1{
 text-align:center;
-padding:0;
+padding:10px;
 margin:0;
 font-family: 'Monoton', cursive; 
 display:flex;
@@ -222,7 +222,7 @@ a:hover{
 }
 .images{
 border-radius:50%;
-height:150px;
+height:100px;
 margin-bottom:2%;
 /* margin-bottom:12%; */
 
