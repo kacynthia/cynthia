@@ -147,6 +147,7 @@ h5 span:nth-child(9n+1){
 #project{
 background-color:rgb(107, 107, 107);
 height:100%;
+margin:-2%;
 }
 .orderedList{
   display:flex;
