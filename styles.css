@@ -147,9 +147,9 @@ h5 span:nth-child(9n+1){
 #project{
 background-color:rgb(107, 107, 107);
 height:100%;
-margin:-2%;
+
 }
-.orderedList{
+/* .orderedList{
   display:flex;
   flex-direction:row;
   justify-content: space-around;
@@ -157,8 +157,6 @@ margin:-2%;
   font-size:24px;
   color:skyblue;
 }
-
-
 .explOfProjects{
   display:flex;
   flex-direction:row;
@@ -182,7 +180,7 @@ margin:-2%;
 }
 .learnMore a:hover{
   background-color:#f05050;
-}
+} */
 /* the contact css style*/
 #contact{
   background-color:rgb(167, 167, 167);
