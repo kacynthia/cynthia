@@ -254,10 +254,11 @@ h2{
     }
  #abt{
   font-family: 'Charm';font-size: 32px;
-  color:white;
+  
+  
 }
  #about{
-  background-color:black;
+  background-color:gray;
   height:100%;
 } 
 .t{
