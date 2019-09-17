@@ -93,7 +93,7 @@ h1 span:nth-child(9n+4){
 h1 span:nth-child(9n+5){
   animation-delay: 1s;
 }
-h1 span:nth-child(9n+6){
+/* h1 span:nth-child(9n+6){
   animation-delay: 1.35s;
 }
 h1 span:nth-child(9n+7){
@@ -107,7 +107,7 @@ h1 span:nth-child(9n+8){
 }
 h1 span:nth-child(9n+9){
   animation-delay: 3.85s;
-}
+} */
 /* h5 span:nth-child(9n+1){
   animation-delay: 0.5s;
 }
