@@ -59,8 +59,11 @@ width:100%;
  #about{
   background-color:rgb(216, 216, 216);
   height:100%;
-  padding:12%;
+ 
 } 
+.aboutme{
+  padding:12%;
+}
 h1{
 text-align:center;
 margin:0;
