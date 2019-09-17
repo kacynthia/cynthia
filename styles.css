@@ -149,6 +149,9 @@ background-color:rgb(107, 107, 107);
 height:100%;
 
 }
+.thumbnail{
+  height:20%;
+}
 /* .orderedList{
   display:flex;
   flex-direction:row;
