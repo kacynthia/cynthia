@@ -115,7 +115,7 @@ h1 span:nth-child(9n+5){
 /*the portofolio css style */
 #project{
 background-color:rgb(107, 107, 107);
-height:200%;
+height:220%;
 }
 
 /*skills*/
@@ -248,7 +248,7 @@ h3{
 }
 
 #skills{
- height:150%;
+ height:100%;
  
  background: #310404 url(https://i.ytimg.com/vi/wOvQAhzWCrM/maxresdefault.jpg);
  background-repeat: no-repeat;
