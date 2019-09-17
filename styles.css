@@ -53,6 +53,13 @@ width:100%;
 }
 
 /* the about css style*/
+#abt{
+  font-family: 'Charm';font-size: 32px;
+}
+ #about{
+  background-color:rgb(216, 216, 216);
+  height:100%;
+} 
 h1{
 text-align:center;
 padding:12%;
@@ -137,6 +144,10 @@ h5 span:nth-child(9n+1){
   padding:10px;
 }
 /*the portofolio css style */
+#project{
+background-color:rgb(107, 107, 107);
+height:100%;
+}
 .orderedList{
   display:flex;
   flex-direction:row;
@@ -251,13 +262,7 @@ h2{
       50%  {color:magenta;}
       100% {color: rgb(253, 7, 40);}
     }
- #abt{
-  font-family: 'Charm';font-size: 32px;
-}
- #about{
-  background-color:rgb(216, 216, 216);
-  height:100%;
-} 
+
 .t{
   font-family: 'Andada';font-size: 32px;
   color:rgb(38, 178, 243);
@@ -303,10 +308,7 @@ margin-bottom:2%;
 /* margin-bottom:12%; */
 
 }
-#project{
-  background-color:rgb(107, 107, 107);
-margin-bottom:-2%;
-}
+
 h3{
     text-decoration:none;
 }
