@@ -55,7 +55,7 @@ width:100%;
 /* the about css style*/
 h1{
 text-align:center;
-padding:0;
+padding:1%;
 margin:0;
 font-family: 'Monoton', cursive; 
 display:flex;
@@ -257,7 +257,6 @@ h2{
  #about{
   background-color:rgb(216, 216, 216);
   height:100%;
- 
 } 
 .t{
   font-family: 'Andada';font-size: 32px;
