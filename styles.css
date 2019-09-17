@@ -61,7 +61,7 @@ font-family: 'Monoton', cursive;
 display:flex;
 justify-content:center;
 align-items:center;
-height:100vh;
+/* height:100vh; */
 overflow:hidden;
 color:transparent;
 font-size:6em;
@@ -251,14 +251,14 @@ h2{
       50%  {color:magenta;}
       100% {color: rgb(253, 7, 40);}
     }
-#abt{
+/* #abt{
   font-family: 'Charm';font-size: 32px;
 }
 #about{
   background-color:rgb(216, 216, 216);
   height:100%;
  
-}
+} */
 .t{
   font-family: 'Andada';font-size: 32px;
   color:rgb(38, 178, 243);
