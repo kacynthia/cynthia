@@ -65,7 +65,6 @@ height:1vh;
 overflow:hidden;
 color:transparent;
 font-size:6em;
-
 }
 
 h1 span{
@@ -254,11 +253,9 @@ h2{
     }
  #abt{
   font-family: 'Charm';font-size: 32px;
-  
-  
 }
  #about{
-  background-color:gray;
+  background-color:rgb(216, 216, 216);
   height:100%;
 } 
 .t{
