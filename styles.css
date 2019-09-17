@@ -128,62 +128,22 @@ h5 span:nth-child(9n+1){
                  0 0 400px #00b3ff;
   }
 }
+
+
+/*the portofolio css style */
+#project{
+background-color:rgb(107, 107, 107);
+height:100%;
+}
+
+/*skills*/
 #im{
   height:300PX;
   border-radius:50%;
   margin-left:30%;    
 }
-/* .flex{
-  display:flex;
-  flex-direction: row;
-  justify-content:space-between;
-  text-align:center;
-  margin-right:300px;
-  margin-left:500px;
-  font-size:24px;
-  padding:10px;
-} */
-/*the portofolio css style */
-#project{
-background-color:rgb(107, 107, 107);
-height:100%;
 
-}
-.thumbnail{
-  height:1%;
-}
-/* .orderedList{
-  display:flex;
-  flex-direction:row;
-  justify-content: space-around;
-  padding: 1px;
-  font-size:24px;
-  color:skyblue;
-}
-.explOfProjects{
-  display:flex;
-  flex-direction:row;
-  justify-content: space-around;
-  padding: 1px;
-  font-size:18px;
-}
-.learnMore{
-  display:flex;
-  flex-direction:row;
-  justify-content: space-around;
-  padding: 1px;
-  text-decoration-line:none;
-    
-}
-.learnMore a{
-  text-decoration-line:none;
-  border:1px solid #f05050;
-  padding:10px;
-  background-color:rgba(230, 132, 132, 0.1);
-}
-.learnMore a:hover{
-  background-color:#f05050;
-} */
+
 /* the contact css style*/
 #contact{
   background-color:rgb(167, 167, 167);
