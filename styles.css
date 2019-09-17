@@ -251,14 +251,14 @@ h2{
       50%  {color:magenta;}
       100% {color: rgb(253, 7, 40);}
     }
-/* #abt{
+ #abt{
   font-family: 'Charm';font-size: 32px;
 }
-#about{
+ #about{
   background-color:rgb(216, 216, 216);
   height:100%;
  
-} */
+} 
 .t{
   font-family: 'Andada';font-size: 32px;
   color:rgb(38, 178, 243);
